@@ -1,0 +1,166 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+}
+
+.box{
+  display: flex;
+  align-items: center;
+margin: 0 auto;
+  justify-content: space-between;
+  width: 1920px;
+  height: 1000px;
+padding: 50px;
+  margin: 0 auto;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/8/80/Backgorund.gif);
+  background-size: 100% 100%;
+  margin-top: 50px;
+  
+}
+.right{
+  align-self: end;
+}
+.block{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: flex-start;
+  flex-direction: column;
+width: 200px;
+height: 200px;
+
+}
+.works{
+  display:none;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 1200px;
+  height: 800px;
+
+  text-align: center;
+}
+.info{
+  display:none ;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  
+}
+.FAQ{
+  display:none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 400px;
+  height: 800px;
+}
+.gg{
+  font-size: 30px;
+}
+p{
+  color: white;
+}
+.gg{
+  color: white;
+}
+.Contact{
+  
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 800px;
+  height: 800px;
+}
+ input{
+  height: 50px;
+  padding-left:10px ;
+ }
+ .po{
+  text-align: center;
+ }
+ .hh{
+  font-size: 20px;
+  text-align: center;
+ }
+ .maket1{
+  width: 350px;
+  height: 400px;
+
+
+ }
+  .maket2{
+  width: 350px;
+  height: 400px;
+
+ }
+  .maket3{
+width: 350px;
+  height: 400px;
+
+ }
+  .maket4{
+  width: 350px;
+  height: 400px;
+
+ }
+ img{
+  width: 350px;
+  height: 350px;
+  background-size: 0% 0%;
+ }
+ .maket1:hover{
+    transform: scale(1.1);
+ }
+  .maket2:hover{
+    transform: scale(1.1);
+ }
+  .maket3:hover{
+    transform: scale(1.1);
+ }
+  .maket4:hover{
+    transform: scale(1.1);
+ }
+  .maket5:hover{
+    transform: scale(1.1);
+ }
+  .maket6:hover{
+    transform: scale(1.1);
+ }
+ P{
+  font-size: 20px;
+ }
+ 
+#home{
+  display: flex;
+  flex-direction: column;
+}
+.block>h1{
+  color: white;
+}
+.block>p{
+  cursor: pointer;
+}
+.nn{
+  height: 30px;
+  width: 100px;
+  padding-left:12px ;
+   padding-right:12px ;
+   align-self: center;
+}
+.Contact>input{
+  border-radius: 15px;
+}
+.Contact>button{
+  border-radius: 15px;
+}
+#home, #works, #info, #FAQ, #Contact {
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  display: none;
+
+}
+body{
+  background: black;
+}
